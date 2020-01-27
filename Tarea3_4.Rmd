@@ -1,0 +1,38 @@
+---
+title: "Tarea 3.4"
+author: "José Daniel Lara Tufiño"
+date: "26/1/2020"
+output: html_document
+---
+Tarea3.4
+Hacer un script a partir de los datos guardados en PracUni3/ejemplosgenerales/data/reads.txt:
+
+Usar rutas relativas desde donde está ubicado el script (en general, en bin) !!
+
+1) Hacer un barplot de reads por muestra
+
+2) Poner títulos al grafico y a cada eje
+
+3) Colorear cada librería cambiando la paleta de colores, usando su alma de data artistas
+
+4) Escribir el script usando Rmarkdown y guardarlo en html (knit)
+
+5) Subir los archivos Rmarkdown y .html a su repo de Github
+
+6) Mandar el link del archivo html para completar la tarea
+
+
+1) Cargar el archivo
+
+```--
+Reads <- read.delim(file = "../data/reads.txt")
+```
+
+2) Hacer un barplot de reads por muestra
+```--
+barplot(Reads$nreads, ##1) Generar plot por muestra
+        names.arg = Reads$sample, 
+        xlab = "Muestras", ##2) Agregar título del gráfico y por eje
+        ylab = "Número de lecturas", main = "Resultados: Lecturas",
+        col=c("#951e71", "#ff63d4", "#0197dd")) ##3) Se colorea por librería resultado de librería
+```
