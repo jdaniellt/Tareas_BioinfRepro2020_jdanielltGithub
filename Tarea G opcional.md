@@ -14,16 +14,15 @@ To implement this pipeline the following files obtained for each pyrad or ipyrad
 
 Finally, after implementing each metric, we looked for concordances between the optimal **CT** recovered in most of the metrics, identifying the value of **CT** in which the true alleles at the opposite ends of the main axes of genetic variation begin to separate incorrectly into groups. different, allowing you to select **CT** just below this value.
 
-#### iPyrad abstract
+#### iPyrad abstract:
 
-
-
+The ipyrad software is for assembles and analyzes RADseq or ddRadseq data using de novo and/or reference-based approaches. To analyze our sequences with ipyrad, a parameter file (params.txt) is necessary, which will determine the way in which the assembly steps will be implemented. The assembly process convert raw fastq data into assembled loci that can be formatted for downstream analyses, for example, in phylogenetic or population genetic inference software. The assembly process is divided into seven steps: **1** Demultiplexing/Loading fastq files, **2** Filtering/Editing reads, **3** Clustering/Mapping reads within Samples and alignment, **4** Joint estimation of heterozygosity and error rate, **5** Consensus base calling and filtering, **6** Clustering/Mapping reads among Samples and alignment and **7** Filtering and formatting output files (for example .phy, .nex, .map etc.). 
 
 #### References
 
 McCartney‐Melstad, E., M. Gidiş, and H. Bradley-Shaffer. 2019. An empirical pipeline for choosing the optimal clustering threshold in RADseq studies. *Molecular Ecology Resource* 00:1–10.
 
-Eaton D. A. R., and I. Overcast. 2020. ipyrad: Interactive assembly and analysis of RADseq datasets. *Bioinformatics* 
+Eaton D. A. R., and I. Overcast. 2020. ipyrad: Interactive assembly and analysis of RADseq datasets. *Bioinformatics* 36(08).
 
 
 
