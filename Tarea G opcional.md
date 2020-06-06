@@ -19,6 +19,12 @@ Finally, after implementing each metric, we looked for concordances between the 
 
 
 
+#### References
+
+McCartney‐Melstad, E., M. Gidiş, and H. Bradley-Shaffer. 2019. An empirical pipeline for choosing the optimal clustering threshold in RADseq studies. *Molecular Ecology Resource* 00:1–10.
+
+Eaton D. A. R., and I. Overcast. 2020. ipyrad: Interactive assembly and analysis of RADseq datasets. *Bioinformatics* 
+
 
 
 
